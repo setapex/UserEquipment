@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <body>
+    <h1>Ваше оборудование</h1>
+    <center>
+        {% for item in data %}
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        {{ item.name }}
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <tbody>
+                            <tr>
+                                <th scope="row">Inventory Number</th>
+                                <td>{{ item.inventory_number }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Nomenclature Number</th>
+                                <td>{{ item.nomenclature_number }}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </center>
+    </body>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<body>
+    <div class="container">
+        <h1>Добавьте связку Пользователь - Оборудование</h1>
+        <form method="post" action="{% url 'user_equipment' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary">Подтвердить</button>
+        </form>
+
+        <h2 class="my-4">User Equipment List</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Пользователь</th>
+                    <th scope="col">Оборудование</th>
+                    <th scope="col">Инвентарный номер</th>
+                    <th scope="col">Номенклатурный номер</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for d in data %}
+                <tr>
+                    <td>{{ d.user.username }}</td>
+                    <td>{{ d.equipment.name }}</td>
+                    <td>{{ d.equipment.inventory_number }}</td>
+                    <td>{{ d.equipment.nomenclature_number }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+{% endblock %}
+
+{% block scripts %}
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+{% endblock %}
