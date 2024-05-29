@@ -8,9 +8,6 @@ class IsAdminOrReadOnly(permissions.BasePermission):
         return bool(request.user and request.user.is_staff)
 
 
-class IsOwnerOrAdminReadOnly(permissions.BasePermission):
+class IsOwnerReadOnly(permissions.BasePermission):
     def has_permission(self, request, view):
-        if request.user.id == view.kwargs.get('pk'):
-            return True
-
-        return bool(request.user.is_staff)
+        return bool(request.user.id and request.user.is_authenticated)

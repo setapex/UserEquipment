@@ -9,22 +9,22 @@ from .permissions import *
 class EquipmentAPIList(generics.ListCreateAPIView):
     queryset = Equipment.objects.all()
     serializer_class = EquipmentSerializer
-    permission_classes = (IsAdminUser, )
+    permission_classes = (IsAdminUser,)
 
 
 class UserEquipmentAPIList(generics.ListCreateAPIView):
     queryset = UserEquipment.objects.all()
     serializer_class = UserEquipmentSerializer
-    permission_classes = (IsAdminUser, )
+    permission_classes = (IsAdminUser,)
 
 
 class ProfileUserAPIList(generics.ListAPIView):
     queryset = UserEquipment.objects.all()
     serializer_class = ProfileUserSerializer
-    permission_classes = (IsOwnerOrAdminReadOnly,)
+    permission_classes = (IsOwnerReadOnly,)
 
     def get_queryset(self):
-        user = self.kwargs['pk']
+        user = self.request.user.id
         queryset = UserEquipment.objects.filter(user_id=user)
         return queryset
 
