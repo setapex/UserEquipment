@@ -23,26 +23,28 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href={% url 'equipment_list' %}>Оборудование</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href={% url 'post_equipment' %}>Добавить оборудование</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href={% url 'user_equipment' %}>Добавить связку</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href={% url 'profile_user' %}>Мое оборудование</a>
+                    {% if request.user.is_staff %}
+                        <li class="nav-item">
+                            <a class="nav-link" href={% url 'equipment_list' %}>Оборудование</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href={% url 'post_equipment' %}>Добавить оборудование</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href={% url 'user_equipment' %}>Добавить связку</a>
+                        </li>
+                        <li class="nav-item">
+                    {% endif %}
+                    <a class="nav-link" href={% url 'profile_user' %}>Мое оборудование</a>
                     </li>
                     {% if request.user.is_authenticated %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="/logout">Выход</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href={% url 'out' %}>Выход</a>
+                        </li>
                     {% else %}
-                    <li class="nav-item">
-                        <a class="nav-link" href='/login'>Вход</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href={% url 'in' %}>Вход</a>
+                        </li>
                     {% endif %}
                 </ul>
             </div>

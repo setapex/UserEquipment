@@ -22,9 +22,9 @@ def login(request):
             request.session['token'] = token
             return profile_user(request)
         else:
-            return render(request, 'login.html')
+            return render(request, 'authe/login.html')
 
-    return render(request, 'login.html')
+    return render(request, 'authe/login.html')
 
 def get_token(username, password):
     token_url = 'http://localhost:8000/auth/token/login'
@@ -49,6 +49,29 @@ def logout(request):
 
     if response.status_code == 204:
         auth_logout(request)
-        return redirect('/login')
+        return redirect('in')
     else:
         return HttpResponse(f"Ошибка выхода: {response.status_code} - {response.text}")
+
+def registration(request):
+    registration_url = 'http://127.0.0.1:8000/auth/api/auth/users/'
+
+    username = request.POST.get('username')
+    password1 = request.POST.get('password1')
+    password2 = request.POST.get('password2')
+
+    if password1 == password2:
+        data = {
+            'username': username,
+            'password': password1,
+        }
+
+        response = requests.post(registration_url, data=data)
+
+        if response.status_code == 201:
+            return redirect('in')
+        else:
+            errors = response.json()
+            return render(request, 'authe/registration.html', {'errors': errors})
+
+    return render(request, 'authe/registration.html')

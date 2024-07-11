@@ -1,4 +1,4 @@
-import django.contrib.auth
+
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
@@ -17,7 +17,7 @@ def get_equipment(request):
             return HttpResponse("Ошибка авторизации.", status=403)
 
         data = EquipmentService.get_equipment_data(token)
-        return render(request, 'equipment_list.html', {'data': data})
+        return render(request, 'equipment/equipment_list.html', {'data': data})
 
     except Exception as e:
         return HttpResponse(f'Ошибка: {e}')
@@ -47,7 +47,7 @@ def post_equipment(request):
     else:
         form = EquipmentForm()
 
-    return render(request, 'post_equipment.html', {'form': form})
+    return render(request, 'equipment/post_equipment.html', {'form': form})
 
 
 def user_equipment(request):
@@ -77,7 +77,7 @@ def user_equipment(request):
 
     data = UserEquipment.objects.all()
 
-    return render(request, 'user_equipment.html', {'form': form, 'data': data})
+    return render(request, 'equipment/user_equipment.html', {'form': form, 'data': data})
 
 
 def profile_user(request):
@@ -91,4 +91,4 @@ def profile_user(request):
     except RuntimeError as e:
         return HttpResponse(f"Ошибка: {e}")
 
-    return render(request, 'profile.html', {'data': equipment_list})
+    return render(request, 'authe/profile.html', {'data': equipment_list})

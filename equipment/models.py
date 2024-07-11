@@ -7,7 +7,7 @@ class Equipment(models.Model):
     nomenclature_number = models.IntegerField()
 
     def __str__(self):
-        return f'{self.equipment.name}'
+        return f'{self.name}'
 
 class UserEquipment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
