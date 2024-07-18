@@ -1,7 +1,6 @@
 from django.urls import path, re_path, include
 
-from .views import *
-from djoser import views
+from .views import login, logout, registration
 
 urlpatterns = [
     path('login/',login, name='in'),

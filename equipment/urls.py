@@ -1,6 +1,6 @@
 from django.urls import path
 
-from equipment.views import *
+from equipment.views import EquipmentAPIList, UserEquipmentAPIList, ProfileUserAPIList
 
 urlpatterns = [
     path('equipment/', EquipmentAPIList.as_view()),

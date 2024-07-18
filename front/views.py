@@ -1,94 +1,101 @@
+import logging
 
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
-
-
+from django.utils.decorators import method_decorator
+from django.views.generic import TemplateView, FormView
 
 from equipment.models import UserEquipment
 from front.forms import EquipmentForm, UserEquipmentForm
+from front.services import EquipmentService, UserEquipmentService, UserService
+from front.validators import validate_auth
 
-from front.services import *
-
-
-def get_equipment(request):
-    try:
-        token = request.session.get('token', '')
-        if not token:
-            return HttpResponse("Ошибка авторизации.", status=403)
-
-        data = EquipmentService.get_equipment_data(token)
-        return render(request, 'equipment/equipment_list.html', {'data': data})
-
-    except Exception as e:
-        return HttpResponse(f'Ошибка: {e}')
+logger = logging.getLogger(__name__)
 
 
-def post_equipment(request):
-    if request.method == 'POST':
-        form = EquipmentForm(request.POST)
-        if form.is_valid():
-            data = {
-                'name': form.cleaned_data['name'],
-                'inventory_number': form.cleaned_data['inventory_number'],
-                'nomenclature_number': form.cleaned_data['nomenclature_number']
-            }
-            token = request.session.get('token', '')
-            if not token:
-                return HttpResponse("Ошибка авторизации.", status=403)
+@method_decorator(validate_auth, name='dispatch')
+class EquipmentListView(TemplateView):
+    template_name = 'equipment/equipment_list.html'
 
-            try:
-                response = EquipmentService.post_equipment_data(token, data)
-                if response.status_code == 201:
-                    return redirect('equipment_list')
-                else:
-                    return HttpResponse(f"Ошибка: {response.status_code} - {response.text}")
-            except Exception as e:
-                return HttpResponse(f"Ошибка API: {e}")
-    else:
-        form = EquipmentForm()
-
-    return render(request, 'equipment/post_equipment.html', {'form': form})
+    def get(self, request, *args, **kwargs):
+        token = self.request.session.get('token', '')
+        try:
+            data = EquipmentService.get_equipment_data(token)
+            logger.info('Оборудование успешно получено')
+            return render(request, self.template_name, {'data': data})
+        except Exception as e:
+            logger.error('Невозможно получить список оборудования', exc_info=True)
+            return JsonResponse({'error': 'Ошибка получения оборудования'}, status=500)
 
 
-def user_equipment(request):
-    if request.method == 'POST':
-        form = UserEquipmentForm(request.POST)
-        if form.is_valid():
-            user_id = form.cleaned_data['user'].id
-            equipment_data = {
-                'name': form.cleaned_data['name'],
-                'inventory_number': form.cleaned_data['inventory_number'],
-                'nomenclature_number': form.cleaned_data['nomenclature_number']
-            }
-            token = request.session.get('token', '')
-            if not token:
-                return HttpResponse("Ошибка авторизации.", status=403)
+@method_decorator(validate_auth, 'dispatch')
+class EquipmentCreateView(FormView):
+    template_name = 'equipment/post_equipment.html'
+    form_class = EquipmentForm
+    success_url = '/equipment/'
 
-            try:
-                response = UserEquipmentService.create_user_equipment(user_id, equipment_data, token)
-                if response.status_code == 201:
-                    return redirect('user_equipment')
-                else:
-                    return HttpResponse(f"Error: {response.status_code} - {response.text}")
-            except Exception as e:
-                return HttpResponse(f"Ошибка: {e}")
-    else:
-        form = UserEquipmentForm()
+    def form_valid(self, form):
+        data = {
+            'name': form.cleaned_data['name'],
+            'inventory_number': form.cleaned_data['inventory_number'],
+            'nomenclature_number': form.cleaned_data['nomenclature_number']
+        }
+        token = self.request.session.get('token', '')
 
-    data = UserEquipment.objects.all()
+        try:
+            EquipmentService.post_equipment_data(token, data)
+            logger.info('Оборудование успешно добавлено')
+            return redirect(self.success_url)
+        except Exception as e:
+            logger.error("Ошибка при отправке данных", exc_info=True)
+            return JsonResponse({'error': "Ошибка при отправке данных"}, status=500)
 
-    return render(request, 'equipment/user_equipment.html', {'form': form, 'data': data})
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['form'] = self.get_form()
+        return context
 
 
-def profile_user(request):
-    try:
-        token = request.session.get('token', '')
-        if not token:
-            return HttpResponse("Ошибка авторизации.", status=403)
+@method_decorator(validate_auth, 'dispatch')
+class UserEquipmentCreateView(FormView):
+    template_name = 'equipment/user_equipment.html'
+    form_class = UserEquipmentForm
+    success_url = '/equipment/pair/'
 
-        data = UserService.get_profile_data(token)
-        equipment_list = [item['equipment'] for item in data]
-    except RuntimeError as e:
-        return HttpResponse(f"Ошибка: {e}")
+    def form_valid(self, form):
+        user_id = form.cleaned_data['user'].id
+        equipment_data = {
+            'name': form.cleaned_data['name'],
+            'inventory_number': form.cleaned_data['inventory_number'],
+            'nomenclature_number': form.cleaned_data['nomenclature_number']
+        }
+        token = self.request.session.get('token', '')
 
-    return render(request, 'authe/profile.html', {'data': equipment_list})
+        try:
+            UserEquipmentService.create_user_equipment(user_id, equipment_data, token)
+            logger.info('Оборудование успешно добавлено')
+            return redirect(self.success_url)
+        except Exception as e:
+            logger.critical(f"Ошибка при отправке данных: {e}")
+            return JsonResponse({'error': "Ошибка при отправке данных"}, status=500)
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['data'] = UserEquipment.objects.all()
+        return context
+
+
+@method_decorator(validate_auth, 'dispatch')
+class ProfileListView(TemplateView):
+    template_name = 'authe/profile.html'
+
+    def get(self, request, *args, **kwargs):
+        token = self.request.session.get('token', '')
+        try:
+            data = UserService.get_profile_data(token)
+            equipment_list = [item['equipment'] for item in data]
+            logger.info('Профиль успешно отображен')
+        except RuntimeError as e:
+            logger.error("Ошибка при получении данных профиля", exc_info=True)
+            return JsonResponse({'error': "Ошибка при получении данных профиля"}, status=500)
+        return render(request, self.template_name, {'data': equipment_list})

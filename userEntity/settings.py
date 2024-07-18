@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from logging.handlers import RotatingFileHandler
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -72,7 +73,7 @@ DATABASES = {
         'NAME': 'user_equipment',
         'USER': 'postgres',
         'PASSWORD': 'Konoplev27',
-        'HOST': 'pgdb',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
@@ -135,4 +136,43 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
     ]
+}
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'standard': {
+            'format': '%(asctime)s [%(levelname)s] %(name)s: %(message)s',
+        },
+    },
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(BASE_DIR, 'debug.log'),
+            'maxBytes': 1024 * 1024 * 1,
+            'backupCount': 5,
+            'formatter': 'standard',
+            'encoding': 'utf-8',
+        },
+    },
+    'loggers': {
+        '': {
+            'handlers': ['file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'django': {
+            'handlers': ['file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'django.request': {
+            'handlers': ['file'],
+            'level': 'INFO',
+            'propagate': False,
+        },
+    }
 }

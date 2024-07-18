@@ -1,8 +1,6 @@
 from django import forms
 from django.contrib.auth.models import User
 
-from equipment.models import Equipment
-
 
 class EquipmentForm(forms.Form):
     name = forms.CharField(max_length=100, label='Name')

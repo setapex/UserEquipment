@@ -1,0 +1,667 @@
+2024-07-18 15:24:07,032 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 15:24:07,032 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 15:24:40,522 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 15:24:40,522 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 15:24:45,223 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1285
+2024-07-18 15:24:45,223 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1285
+2024-07-18 15:24:45,267 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 19103
+2024-07-18 15:24:45,267 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 19103
+2024-07-18 15:26:49,973 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 15:26:49,973 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 15:26:53,790 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1285
+2024-07-18 15:26:53,790 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1285
+2024-07-18 15:26:53,792 [INFO] front.views: ОБОРУДОВАНИЕ - [{'name': 'Detail 3', 'inventory_number': 11143, 'nomenclature_number': 100}, {'name': 'Detail 1', 'inventory_number': 13685, 'nomenclature_number': 123}, {'name': 'Detail 2', 'inventory_number': 12543, 'nomenclature_number': 11}, {'name': 'Detail 4', 'inventory_number': 16543, 'nomenclature_number': 95}, {'name': 'Detail 5', 'inventory_number': 12342, 'nomenclature_number': 157}, {'name': 'Detail 6', 'inventory_number': 12540, 'nomenclature_number': 519}, {'name': 'Detail 6', 'inventory_number': 12540, 'nomenclature_number': 519}, {'name': 'Detail 6', 'inventory_number': 12540, 'nomenclature_number': 519}, {'name': 'Detail 7', 'inventory_number': 34523, 'nomenclature_number': 853}, {'name': 'Detail 9', 'inventory_number': 23452, 'nomenclature_number': 129}, {'name': 'Detail 10', 'inventory_number': 23473, 'nomenclature_number': 184}, {'name': 'Detail 11', 'inventory_number': 23346, 'nomenclature_number': 956}, {'name': 'Detail 12', 'inventory_number': 84537, 'nomenclature_number': 831}, {'name': 'Detail 13', 'inventory_number': 34626, 'nomenclature_number': 738}, {'name': 'Detail 14', 'inventory_number': 35462, 'nomenclature_number': 800}, {'name': 'Detail 22', 'inventory_number': 346, 'nomenclature_number': 65342}, {'name': 'Detail 23', 'inventory_number': 653, 'nomenclature_number': 36347}, {'name': 'Detail 24', 'inventory_number': 457, 'nomenclature_number': 96736}]
+2024-07-18 15:26:53,821 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 19103
+2024-07-18 15:26:53,821 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 19103
+2024-07-18 15:27:12,231 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 15:27:12,231 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 15:27:30,440 [INFO] django.server: "GET /equipment/pair/ HTTP/1.1" 200 6079
+2024-07-18 15:27:30,440 [INFO] django.server: "GET /equipment/pair/ HTTP/1.1" 200 6079
+2024-07-18 15:27:32,242 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 258
+2024-07-18 15:27:32,242 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 258
+2024-07-18 15:27:32,243 [INFO] front.views: Профиль успешно отображен
+2024-07-18 15:27:32,252 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4653
+2024-07-18 15:27:32,252 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4653
+2024-07-18 15:28:09,311 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-18 15:28:09,311 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-18 15:28:10,528 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 15:28:10,528 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 15:28:11,925 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 15:28:11,925 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 15:28:23,507 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 15:28:23,507 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 15:28:34,555 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1285
+2024-07-18 15:28:34,555 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1285
+2024-07-18 15:28:34,555 [INFO] front.views: Оборудование успешно получено
+2024-07-18 15:28:34,570 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 19103
+2024-07-18 15:28:34,570 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 19103
+2024-07-18 15:28:59,939 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 15:28:59,939 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 15:29:12,007 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-18 15:29:12,007 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-18 15:29:12,007 [INFO] front.views: Оборудование успешно добавлено
+2024-07-18 15:29:12,018 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 15:29:12,018 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 15:29:12,138 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1357
+2024-07-18 15:29:12,138 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1357
+2024-07-18 15:29:12,138 [INFO] front.views: Оборудование успешно получено
+2024-07-18 15:29:12,148 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 20031
+2024-07-18 15:29:12,148 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 20031
+2024-07-18 15:29:26,250 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1357
+2024-07-18 15:29:26,250 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1357
+2024-07-18 15:29:26,252 [INFO] front.views: Оборудование успешно получено
+2024-07-18 15:29:26,260 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 20031
+2024-07-18 15:29:26,260 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 20031
+2024-07-18 15:29:32,946 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 15:29:32,946 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 15:29:39,864 [INFO] front.views: Оборудование успешно добавлено
+2024-07-18 15:29:39,864 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-18 15:29:39,864 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-18 15:29:39,865 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 15:29:39,865 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 15:29:39,978 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1429
+2024-07-18 15:29:39,978 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1429
+2024-07-18 15:29:39,978 [INFO] front.views: Оборудование успешно получено
+2024-07-18 15:29:39,987 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 20959
+2024-07-18 15:29:39,987 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 20959
+2024-07-18 15:30:12,401 [INFO] django.server: "GET /equipment/pair/ HTTP/1.1" 200 6079
+2024-07-18 15:30:12,401 [INFO] django.server: "GET /equipment/pair/ HTTP/1.1" 200 6079
+2024-07-18 15:30:25,563 [INFO] django.server: "POST /api/user/equipment/ HTTP/1.1" 201 94
+2024-07-18 15:30:25,563 [INFO] django.server: "POST /api/user/equipment/ HTTP/1.1" 201 94
+2024-07-18 15:30:25,564 [INFO] front.views: Оборудование успешно добавлено
+2024-07-18 15:30:25,565 [INFO] django.server: "POST /equipment/pair/ HTTP/1.1" 302 0
+2024-07-18 15:30:25,565 [INFO] django.server: "POST /equipment/pair/ HTTP/1.1" 302 0
+2024-07-18 15:30:25,656 [INFO] django.server: "GET /equipment/pair/ HTTP/1.1" 200 6281
+2024-07-18 15:30:25,656 [INFO] django.server: "GET /equipment/pair/ HTTP/1.1" 200 6281
+2024-07-18 16:49:42,190 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-18 16:49:42,190 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-18 16:49:43,212 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:49:43,212 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:49:45,017 [INFO] front.views: Оборудование успешно получено
+2024-07-18 16:49:45,017 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1501
+2024-07-18 16:49:45,017 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1501
+2024-07-18 16:49:45,049 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 21887
+2024-07-18 16:49:45,049 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 21887
+2024-07-18 16:50:01,098 [INFO] front.views: Оборудование успешно получено
+2024-07-18 16:50:01,098 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1501
+2024-07-18 16:50:01,098 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1501
+2024-07-18 16:50:01,106 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 21887
+2024-07-18 16:50:01,106 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 21887
+2024-07-18 16:50:05,838 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 16:50:05,838 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 16:51:07,652 [INFO] front.views: Оборудование успешно добавлено
+2024-07-18 16:51:07,652 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-18 16:51:07,652 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-18 16:51:07,652 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:51:07,652 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:51:07,763 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1573
+2024-07-18 16:51:07,763 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1573
+2024-07-18 16:51:07,765 [INFO] front.views: Оборудование успешно получено
+2024-07-18 16:51:07,773 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 22815
+2024-07-18 16:51:07,773 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 22815
+2024-07-18 16:51:23,519 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 16:51:23,519 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 16:51:30,385 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-18 16:51:30,385 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-18 16:51:30,385 [INFO] front.views: Оборудование успешно добавлено
+2024-07-18 16:51:30,385 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:51:30,385 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:51:30,484 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1645
+2024-07-18 16:51:30,484 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1645
+2024-07-18 16:51:30,484 [INFO] front.views: Оборудование успешно получено
+2024-07-18 16:51:30,495 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 23743
+2024-07-18 16:51:30,495 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 23743
+2024-07-18 16:51:44,496 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 16:51:44,496 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-18 16:51:59,521 [INFO] front.views: Оборудование успешно добавлено
+2024-07-18 16:51:59,521 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-18 16:51:59,521 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-18 16:51:59,537 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:51:59,537 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:51:59,810 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1717
+2024-07-18 16:51:59,810 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1717
+2024-07-18 16:51:59,810 [INFO] front.views: Оборудование успешно получено
+2024-07-18 16:51:59,819 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 24671
+2024-07-18 16:51:59,819 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 24671
+2024-07-18 16:53:41,773 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-18 16:53:41,773 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-18 16:53:42,600 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:53:42,600 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:55:19,034 [ERROR] django.request: Internal Server Error: /equipment/add/
+Traceback (most recent call last):
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 29: 'endblock'. Did you forget to register or load this tag?
+2024-07-18 16:55:19,038 [ERROR] django.server: "GET /equipment/add/ HTTP/1.1" 500 161576
+2024-07-18 16:55:19,038 [ERROR] django.server: "GET /equipment/add/ HTTP/1.1" 500 161576
+2024-07-18 16:55:57,607 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3126
+2024-07-18 16:55:57,607 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3126
+2024-07-18 16:56:32,587 [INFO] front.views: Оборудование успешно добавлено
+2024-07-18 16:56:32,587 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 77
+2024-07-18 16:56:32,587 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 77
+2024-07-18 16:56:32,587 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:56:32,587 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:56:32,804 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1795
+2024-07-18 16:56:32,804 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1795
+2024-07-18 16:56:32,815 [INFO] front.views: Оборудование успешно получено
+2024-07-18 16:56:32,822 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 25605
+2024-07-18 16:56:32,822 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 25605
+2024-07-18 16:57:22,427 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:57:22,427 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 16:57:28,844 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3126
+2024-07-18 16:57:28,844 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3126
+2024-07-18 16:57:36,545 [INFO] front.views: Оборудование успешно добавлено
+2024-07-18 16:57:36,545 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 77
+2024-07-18 16:57:36,545 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 77
+2024-07-18 16:57:36,545 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:57:36,545 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:57:36,647 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1873
+2024-07-18 16:57:36,647 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1873
+2024-07-18 16:57:36,647 [INFO] front.views: Оборудование успешно получено
+2024-07-18 16:57:36,663 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 26539
+2024-07-18 16:57:36,663 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 26539
+2024-07-18 16:57:41,972 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3126
+2024-07-18 16:57:41,972 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3126
+2024-07-18 16:58:08,185 [INFO] front.views: Оборудование успешно добавлено
+2024-07-18 16:58:08,185 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 74
+2024-07-18 16:58:08,185 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 74
+2024-07-18 16:58:08,185 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:58:08,185 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-18 16:58:08,502 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1948
+2024-07-18 16:58:08,502 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1948
+2024-07-18 16:58:08,502 [INFO] front.views: Оборудование успешно получено
+2024-07-18 16:58:08,510 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 27470
+2024-07-18 16:58:08,510 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 27470
+2024-07-18 16:58:19,726 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3126
+2024-07-18 16:58:19,726 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3126
+2024-07-18 17:00:33,336 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\validators.py changed, reloading.
+2024-07-18 17:00:33,336 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\validators.py changed, reloading.
+2024-07-18 17:00:34,168 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:00:34,168 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:12:18,093 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\validators.py changed, reloading.
+2024-07-18 17:12:18,093 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\validators.py changed, reloading.
+2024-07-18 17:12:19,014 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:12:19,014 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 17:12:24,608 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1948
+2024-07-18 17:12:24,608 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1948
+2024-07-18 17:12:24,608 [INFO] front.services: Данные оборудования получены
+2024-07-18 17:12:24,617 [INFO] front.views: Оборудование успешно получено
+2024-07-18 17:12:24,639 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 27470
+2024-07-18 17:12:24,639 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 27470
+2024-07-18 17:12:35,176 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 344
+2024-07-18 17:12:35,176 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 344
+2024-07-18 17:12:35,176 [INFO] front.services: Данные профиля получены
+2024-07-18 17:12:35,177 [INFO] front.views: Профиль успешно отображен
+2024-07-18 17:12:35,190 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 5493
+2024-07-18 17:12:35,190 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 5493
+2024-07-18 17:25:52,782 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 17:25:52,782 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:12:12,461 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:12:12,461 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:27:27,928 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:27:27,928 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:28:09,066 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:28:09,066 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:28:14,183 [INFO] authe.views: Попытка выхода из аккаунта
+2024-07-18 20:28:14,249 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-18 20:28:14,249 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-18 20:28:14,255 [INFO] authe.views: Вы разлогинились
+2024-07-18 20:28:14,263 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-18 20:28:14,263 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-18 20:28:14,288 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:28:14,288 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:28:30,215 [INFO] authe.views: Попытка входа пользователя - фываф
+2024-07-18 20:28:30,509 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:28:30,509 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:29:02,965 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:29:02,965 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:29:03,738 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:29:03,738 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:29:05,635 [INFO] authe.views: Попытка входа пользователя - фыв
+2024-07-18 20:29:05,932 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:29:05,932 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:29:22,528 [WARNING] authe.validators: Username и password необходимо заполнить
+2024-07-18 20:29:22,528 [WARNING] django.request: Bad Request: /auth/login/
+2024-07-18 20:29:22,529 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:29:22,529 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:29:32,246 [WARNING] authe.validators: Username и password необходимо заполнить
+2024-07-18 20:29:32,246 [WARNING] django.request: Bad Request: /auth/login/
+2024-07-18 20:29:32,246 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:29:32,246 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:29:57,426 [INFO] authe.views: Попытка входа пользователя - йцк
+2024-07-18 20:29:57,702 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:29:57,702 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:30:54,803 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:30:54,803 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:30:55,588 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:30:55,588 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:30:56,019 [INFO] authe.validators: Username и password необходимо заполнить
+2024-07-18 20:30:56,019 [WARNING] django.request: Bad Request: /auth/login/
+2024-07-18 20:30:56,020 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:30:56,020 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:31:19,449 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:31:19,449 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:31:20,337 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:31:20,337 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:34:34,074 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:34:34,074 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:34:34,887 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:34:34,887 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:34:51,289 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:34:51,289 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:34:52,041 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:34:52,041 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:34:54,344 [ERROR] authe.validators: Username и password необходимо заполнить
+NoneType: None
+2024-07-18 20:34:54,345 [WARNING] django.request: Bad Request: /auth/login/
+2024-07-18 20:34:54,345 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:34:54,345 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:36:55,642 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:36:55,642 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:36:56,452 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:36:56,452 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:36:58,289 [WARNING] authe.validators: Username и password необходимо заполнить
+NoneType: None
+2024-07-18 20:36:58,291 [WARNING] django.request: Bad Request: /auth/login/
+2024-07-18 20:36:58,291 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:36:58,291 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:37:00,341 [WARNING] authe.validators: Username и password необходимо заполнить
+NoneType: None
+2024-07-18 20:37:00,343 [WARNING] django.request: Bad Request: /auth/login/
+2024-07-18 20:37:00,343 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:37:00,343 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:37:37,377 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:37:37,377 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:37:38,228 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:37:38,228 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:37:38,934 [WARNING] authe.validators: Username и password необходимо заполнить
+2024-07-18 20:37:38,935 [WARNING] django.request: Bad Request: /auth/login/
+2024-07-18 20:37:38,935 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:37:38,935 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:38:08,541 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:38:08,541 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:38:09,296 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:38:09,296 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:38:10,795 [WARNING] authe.validators: Username и password необходимо заполнить
+2024-07-18 20:38:10,796 [WARNING] django.request: Bad Request: /auth/login/
+2024-07-18 20:38:10,796 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:38:10,796 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 400 153
+2024-07-18 20:38:27,948 [INFO] authe.views: Попытка входа пользователя - qwe
+2024-07-18 20:38:28,214 [WARNING] authe.views: Проверьте правильность данных для qwe
+2024-07-18 20:38:28,228 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:38:28,228 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:39:00,104 [INFO] authe.views: Попытка входа пользователя - admin
+2024-07-18 20:39:00,463 [INFO] authe.views: Пользователь admin успешно авторизован
+2024-07-18 20:39:00,479 [INFO] authe.views: Попытка получения токена для admin
+2024-07-18 20:39:02,773 [INFO] authe.views: Токен для admin успешно получен
+2024-07-18 20:39:02,773 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-18 20:39:02,773 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-18 20:39:02,778 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-18 20:39:02,778 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-18 20:39:02,880 [INFO] front.services: Данные профиля получены
+2024-07-18 20:39:02,880 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 344
+2024-07-18 20:39:02,880 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 344
+2024-07-18 20:39:02,880 [INFO] front.views: Профиль успешно отображен
+2024-07-18 20:39:02,898 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 5493
+2024-07-18 20:39:02,898 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 5493
+2024-07-18 20:39:21,444 [INFO] authe.views: Попытка выхода из аккаунта
+2024-07-18 20:39:21,499 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-18 20:39:21,499 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-18 20:39:21,508 [INFO] authe.views: Вы разлогинились
+2024-07-18 20:39:21,508 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-18 20:39:21,508 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-18 20:39:21,514 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:39:21,514 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 20:42:25,390 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:42:25,390 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 20:42:26,264 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:42:26,264 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:50:37,995 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:50:37,995 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:50:38,882 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:50:38,882 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:51:19,852 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:51:19,852 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:51:20,643 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:51:20,643 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:52:44,424 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:52:44,424 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:52:45,360 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:52:45,360 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:54:34,023 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:54:34,023 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:54:34,869 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:54:34,869 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:56:51,061 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:56:51,061 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:56:52,069 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:56:52,069 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:57:06,538 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:57:06,538 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:57:07,443 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:57:07,443 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:57:28,159 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:57:28,159 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:57:28,903 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:57:28,903 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:58:00,672 [INFO] authe.views: Попытка входа пользователя - qrwqwr
+2024-07-18 20:58:00,934 [WARNING] authe.views: Проверьте правильность данных для qrwqwr
+2024-07-18 20:58:00,934 [WARNING] django.request: Unauthorized: /auth/login/
+2024-07-18 20:58:00,934 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 401 177
+2024-07-18 20:58:00,934 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 401 177
+2024-07-18 20:59:09,361 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:59:09,361 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:59:10,126 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:59:10,126 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:59:44,734 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:59:44,734 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:59:45,593 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:59:45,593 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:59:54,809 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:59:54,809 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 20:59:55,583 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 20:59:55,583 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:01:44,308 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\validators.py changed, reloading.
+2024-07-18 21:01:44,308 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\validators.py changed, reloading.
+2024-07-18 21:01:45,179 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:01:45,179 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:02:34,156 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-18 21:02:34,156 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-18 21:02:34,922 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:02:34,922 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:04:33,313 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-18 21:04:33,313 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-18 21:04:34,185 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:04:34,185 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:04:36,782 [INFO] authe.views: Попытка регистрации пользователя - None
+2024-07-18 21:04:36,791 [WARNING] django.request: Bad Request: /auth/api/auth/users/
+2024-07-18 21:04:36,793 [WARNING] authe.views: Ошибка регистрации None
+2024-07-18 21:04:36,793 [WARNING] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 400 101
+2024-07-18 21:04:36,793 [WARNING] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 400 101
+2024-07-18 21:04:36,794 [WARNING] django.request: Bad Request: /auth/registration/
+2024-07-18 21:04:36,795 [INFO] django.server: code 400, message Bad request syntax ('0')
+2024-07-18 21:04:36,795 [INFO] django.server: code 400, message Bad request syntax ('0')
+2024-07-18 21:04:36,795 [WARNING] django.server: "GET /auth/registration/ HTTP/1.1" 400 116
+2024-07-18 21:04:36,795 [WARNING] django.server: "GET /auth/registration/ HTTP/1.1" 400 116
+2024-07-18 21:04:36,796 [WARNING] django.server: "0" 400 -
+2024-07-18 21:04:36,796 [WARNING] django.server: "0" 400 -
+2024-07-18 21:07:07,820 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:07:07,820 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:07:08,675 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:07:08,675 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:07:11,740 [INFO] authe.views: Попытка регистрации пользователя - None
+2024-07-18 21:07:11,750 [WARNING] django.request: Bad Request: /auth/api/auth/users/
+2024-07-18 21:07:11,752 [WARNING] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 400 101
+2024-07-18 21:07:11,752 [WARNING] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 400 101
+2024-07-18 21:07:11,752 [WARNING] authe.views: Ошибка регистрации None
+2024-07-18 21:07:11,753 [INFO] django.server: code 400, message Bad request syntax ('0')
+2024-07-18 21:07:11,753 [INFO] django.server: code 400, message Bad request syntax ('0')
+2024-07-18 21:07:11,754 [WARNING] django.request: Bad Request: /auth/registration/
+2024-07-18 21:07:11,754 [WARNING] django.server: "0" 400 -
+2024-07-18 21:07:11,754 [WARNING] django.server: "0" 400 -
+2024-07-18 21:07:11,755 [WARNING] django.server: "GET /auth/registration/ HTTP/1.1" 400 116
+2024-07-18 21:07:11,755 [WARNING] django.server: "GET /auth/registration/ HTTP/1.1" 400 116
+2024-07-18 21:07:23,115 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:07:23,115 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:07:23,893 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:07:23,893 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:09:18,175 [INFO] authe.views: Попытка регистрации пользователя - None
+2024-07-18 21:09:18,184 [WARNING] django.request: Bad Request: /auth/api/auth/users/
+2024-07-18 21:09:18,187 [WARNING] authe.views: Ошибка регистрации None
+2024-07-18 21:09:18,187 [WARNING] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 400 101
+2024-07-18 21:09:18,187 [WARNING] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 400 101
+2024-07-18 21:09:18,188 [WARNING] django.request: Bad Request: /auth/registration/
+2024-07-18 21:09:18,188 [INFO] django.server: code 400, message Bad request syntax ('0')
+2024-07-18 21:09:18,188 [INFO] django.server: code 400, message Bad request syntax ('0')
+2024-07-18 21:09:18,189 [WARNING] django.server: "GET /auth/registration/ HTTP/1.1" 400 116
+2024-07-18 21:09:18,189 [WARNING] django.server: "GET /auth/registration/ HTTP/1.1" 400 116
+2024-07-18 21:09:18,189 [WARNING] django.server: "0" 400 -
+2024-07-18 21:09:18,189 [WARNING] django.server: "0" 400 -
+2024-07-18 21:09:24,631 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:09:24,631 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:09:28,121 [WARNING] django.request: Not Found: /
+2024-07-18 21:09:28,122 [WARNING] django.server: "GET / HTTP/1.1" 404 3124
+2024-07-18 21:09:28,122 [WARNING] django.server: "GET / HTTP/1.1" 404 3124
+2024-07-18 21:09:46,511 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:09:46,511 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:09:51,900 [WARNING] django.request: Not Found: /auth
+2024-07-18 21:09:51,900 [WARNING] django.server: "GET /auth HTTP/1.1" 404 3154
+2024-07-18 21:09:51,900 [WARNING] django.server: "GET /auth HTTP/1.1" 404 3154
+2024-07-18 21:09:57,525 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:09:57,525 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:09:59,395 [WARNING] django.request: Not Found: /api
+2024-07-18 21:09:59,395 [WARNING] django.server: "GET /api HTTP/1.1" 404 3151
+2024-07-18 21:09:59,395 [WARNING] django.server: "GET /api HTTP/1.1" 404 3151
+2024-07-18 21:10:04,713 [WARNING] django.request: Not Found: /api/auth
+2024-07-18 21:10:04,713 [WARNING] django.server: "GET /api/auth HTTP/1.1" 404 3548
+2024-07-18 21:10:04,713 [WARNING] django.server: "GET /api/auth HTTP/1.1" 404 3548
+2024-07-18 21:10:20,036 [WARNING] django.request: Not Found: /api/auth/api
+2024-07-18 21:10:20,038 [WARNING] django.server: "GET /api/auth/api HTTP/1.1" 404 3560
+2024-07-18 21:10:20,038 [WARNING] django.server: "GET /api/auth/api HTTP/1.1" 404 3560
+2024-07-18 21:10:27,786 [WARNING] django.request: Not Found: /api/auth/api/registration
+2024-07-18 21:10:27,787 [WARNING] django.server: "GET /api/auth/api/registration HTTP/1.1" 404 3599
+2024-07-18 21:10:27,787 [WARNING] django.server: "GET /api/auth/api/registration HTTP/1.1" 404 3599
+2024-07-18 21:10:35,039 [WARNING] django.request: Not Found: /
+2024-07-18 21:10:35,040 [WARNING] django.server: "GET / HTTP/1.1" 404 3124
+2024-07-18 21:10:35,040 [WARNING] django.server: "GET / HTTP/1.1" 404 3124
+2024-07-18 21:10:49,945 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:10:49,945 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:10:56,144 [INFO] django.server: "GET /auth/api/auth HTTP/1.1" 301 0
+2024-07-18 21:10:56,144 [INFO] django.server: "GET /auth/api/auth HTTP/1.1" 301 0
+2024-07-18 21:10:56,213 [INFO] django.server: "GET /auth/api/auth/ HTTP/1.1" 200 5338
+2024-07-18 21:10:56,213 [INFO] django.server: "GET /auth/api/auth/ HTTP/1.1" 200 5338
+2024-07-18 21:10:57,012 [INFO] django.server: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+2024-07-18 21:10:57,012 [INFO] django.server: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+2024-07-18 21:10:57,014 [INFO] django.server: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+2024-07-18 21:10:57,014 [INFO] django.server: "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+2024-07-18 21:10:57,014 [INFO] django.server: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+2024-07-18 21:10:57,014 [INFO] django.server: "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+2024-07-18 21:10:57,020 [INFO] django.server: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+2024-07-18 21:10:57,020 [INFO] django.server: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+2024-07-18 21:10:57,027 [INFO] django.server: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+2024-07-18 21:10:57,027 [INFO] django.server: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+2024-07-18 21:10:57,037 [INFO] django.server: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+2024-07-18 21:10:57,037 [INFO] django.server: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+2024-07-18 21:10:57,042 [INFO] django.server: "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+2024-07-18 21:10:57,042 [INFO] django.server: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+2024-07-18 21:10:57,042 [INFO] django.server: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+2024-07-18 21:10:57,042 [INFO] django.server: "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+2024-07-18 21:10:57,048 [INFO] django.server: "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+2024-07-18 21:10:57,048 [INFO] django.server: "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+2024-07-18 21:10:57,053 [INFO] django.server: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+2024-07-18 21:10:57,053 [INFO] django.server: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+2024-07-18 21:10:57,053 [INFO] django.server: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+2024-07-18 21:10:57,053 [INFO] django.server: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+2024-07-18 21:10:57,071 [INFO] django.server: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+2024-07-18 21:10:57,071 [INFO] django.server: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+2024-07-18 21:11:02,295 [WARNING] django.request: Unauthorized: /auth/api/auth/users/
+2024-07-18 21:11:02,295 [WARNING] django.server: "GET /auth/api/auth/users/ HTTP/1.1" 401 9507
+2024-07-18 21:11:02,295 [WARNING] django.server: "GET /auth/api/auth/users/ HTTP/1.1" 401 9507
+2024-07-18 21:11:43,620 [INFO] authe.views: Попытка регистрации пользователя - None
+2024-07-18 21:11:43,626 [WARNING] django.request: Bad Request: /auth/api/auth/users/
+2024-07-18 21:11:43,627 [WARNING] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 400 101
+2024-07-18 21:11:43,627 [WARNING] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 400 101
+2024-07-18 21:11:43,627 [WARNING] authe.views: Ошибка регистрации None
+2024-07-18 21:11:43,628 [INFO] django.server: code 400, message Bad request syntax ('0')
+2024-07-18 21:11:43,628 [INFO] django.server: code 400, message Bad request syntax ('0')
+2024-07-18 21:11:43,628 [WARNING] django.request: Bad Request: /auth/registration/
+2024-07-18 21:11:43,629 [WARNING] django.server: "0" 400 -
+2024-07-18 21:11:43,629 [WARNING] django.server: "0" 400 -
+2024-07-18 21:11:43,629 [WARNING] django.server: "GET /auth/registration/ HTTP/1.1" 400 116
+2024-07-18 21:11:43,629 [WARNING] django.server: "GET /auth/registration/ HTTP/1.1" 400 116
+2024-07-18 21:11:45,561 [WARNING] django.request: Unauthorized: /auth/api/auth/users/
+2024-07-18 21:11:45,568 [WARNING] django.server: "GET /auth/api/auth/users/ HTTP/1.1" 401 9507
+2024-07-18 21:11:45,568 [WARNING] django.server: "GET /auth/api/auth/users/ HTTP/1.1" 401 9507
+2024-07-18 21:11:49,291 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:11:49,291 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:11:50,977 [INFO] authe.views: Попытка регистрации пользователя - None
+2024-07-18 21:11:50,981 [WARNING] django.request: Bad Request: /auth/api/auth/users/
+2024-07-18 21:11:50,982 [WARNING] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 400 101
+2024-07-18 21:11:50,982 [WARNING] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 400 101
+2024-07-18 21:11:50,982 [WARNING] authe.views: Ошибка регистрации None
+2024-07-18 21:11:50,984 [INFO] django.server: code 400, message Bad request syntax ('0')
+2024-07-18 21:11:50,984 [INFO] django.server: code 400, message Bad request syntax ('0')
+2024-07-18 21:11:50,986 [WARNING] django.server: "0" 400 -
+2024-07-18 21:11:50,986 [WARNING] django.server: "0" 400 -
+2024-07-18 21:11:50,985 [WARNING] django.request: Bad Request: /auth/registration/
+2024-07-18 21:11:50,988 [WARNING] django.server: "GET /auth/registration/ HTTP/1.1" 400 116
+2024-07-18 21:11:50,988 [WARNING] django.server: "GET /auth/registration/ HTTP/1.1" 400 116
+2024-07-18 21:13:00,749 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:13:00,749 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:13:01,615 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:13:01,615 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:13:30,615 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:13:30,615 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:13:31,313 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:13:31,313 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:13:36,228 [ERROR] django.request: Internal Server Error: /auth/registration/
+Traceback (most recent call last):
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view authe.validators.wrapper didn't return an HttpResponse object. It returned None instead.
+2024-07-18 21:13:36,230 [ERROR] django.server: "GET /auth/registration/ HTTP/1.1" 500 73402
+2024-07-18 21:13:36,230 [ERROR] django.server: "GET /auth/registration/ HTTP/1.1" 500 73402
+2024-07-18 21:14:28,332 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 21:14:28,332 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 21:14:29,256 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:14:29,256 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:15:08,190 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 21:15:08,190 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 21:15:08,927 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:15:08,927 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:15:24,836 [ERROR] django.request: Internal Server Error: /auth/registration/
+Traceback (most recent call last):
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py", line 20, in wrapper
+    func()
+TypeError: registration() missing 1 required positional argument: 'request'
+2024-07-18 21:15:24,837 [ERROR] django.server: "GET /auth/registration/ HTTP/1.1" 500 72789
+2024-07-18 21:15:24,837 [ERROR] django.server: "GET /auth/registration/ HTTP/1.1" 500 72789
+2024-07-18 21:16:24,955 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 21:16:24,955 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\validators.py changed, reloading.
+2024-07-18 21:16:25,805 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:16:25,805 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:18:47,524 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:18:47,524 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:18:48,338 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:18:48,338 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:23:12,449 [ERROR] django.request: Internal Server Error: /auth/registration/
+Traceback (most recent call last):
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\setapex\PycharmProjects\userEntity\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view authe.validators.wrapper didn't return an HttpResponse object. It returned None instead.
+2024-07-18 21:23:12,450 [ERROR] django.server: "GET /auth/registration/ HTTP/1.1" 500 73402
+2024-07-18 21:23:12,450 [ERROR] django.server: "GET /auth/registration/ HTTP/1.1" 500 73402
+2024-07-18 21:24:25,315 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:24:25,315 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\views.py changed, reloading.
+2024-07-18 21:24:26,085 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:24:26,085 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-18 21:24:35,401 [INFO] django.server: "GET /auth/registration/ HTTP/1.1" 200 2055
+2024-07-18 21:24:35,401 [INFO] django.server: "GET /auth/registration/ HTTP/1.1" 200 2055
+2024-07-18 21:24:42,600 [WARNING] authe.validators: Все поля необходимо заполнить
+2024-07-18 21:24:42,600 [WARNING] django.request: Bad Request: /auth/registration/
+2024-07-18 21:24:42,600 [WARNING] django.server: "POST /auth/registration/ HTTP/1.1" 400 172
+2024-07-18 21:24:42,600 [WARNING] django.server: "POST /auth/registration/ HTTP/1.1" 400 172
+2024-07-18 21:24:47,982 [WARNING] authe.validators: Все поля необходимо заполнить
+2024-07-18 21:24:47,982 [WARNING] django.request: Bad Request: /auth/registration/
+2024-07-18 21:24:47,982 [WARNING] django.server: "POST /auth/registration/ HTTP/1.1" 400 172
+2024-07-18 21:24:47,982 [WARNING] django.server: "POST /auth/registration/ HTTP/1.1" 400 172
+2024-07-18 21:24:54,324 [WARNING] authe.validators: Минимальная длина пароля - 8 символов
+2024-07-18 21:24:54,324 [WARNING] django.request: Bad Request: /auth/registration/
+2024-07-18 21:24:54,324 [WARNING] django.server: "POST /auth/registration/ HTTP/1.1" 400 200
+2024-07-18 21:24:54,324 [WARNING] django.server: "POST /auth/registration/ HTTP/1.1" 400 200
+2024-07-18 21:25:00,759 [WARNING] authe.validators: Пароли не совпадают
+2024-07-18 21:25:00,760 [WARNING] django.request: Bad Request: /auth/registration/
+2024-07-18 21:25:00,760 [WARNING] django.server: "POST /auth/registration/ HTTP/1.1" 400 117
+2024-07-18 21:25:00,760 [WARNING] django.server: "POST /auth/registration/ HTTP/1.1" 400 117
+2024-07-18 21:25:18,017 [INFO] authe.views: Попытка регистрации пользователя - user100
+2024-07-18 21:25:18,303 [INFO] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 201 40
+2024-07-18 21:25:18,303 [INFO] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 201 40
+2024-07-18 21:25:18,304 [INFO] authe.views: Пользователь user100 успешно зарегистрирован
+2024-07-18 21:25:18,306 [INFO] django.server: "POST /auth/registration/ HTTP/1.1" 302 0
+2024-07-18 21:25:18,306 [INFO] django.server: "POST /auth/registration/ HTTP/1.1" 302 0
+2024-07-18 21:25:18,313 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:25:18,313 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:25:35,322 [INFO] authe.views: Попытка входа пользователя - user100
+2024-07-18 21:25:35,570 [INFO] authe.views: Пользователь user100 успешно авторизован
+2024-07-18 21:25:35,587 [INFO] authe.views: Попытка получения токена для user100
+2024-07-18 21:25:37,880 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-18 21:25:37,880 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-18 21:25:37,880 [INFO] authe.views: Токен для user100 успешно получен
+2024-07-18 21:25:37,884 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-18 21:25:37,884 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-18 21:25:37,982 [INFO] front.services: Данные профиля получены
+2024-07-18 21:25:37,982 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 2
+2024-07-18 21:25:37,982 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 2
+2024-07-18 21:25:37,982 [INFO] front.views: Профиль успешно отображен
+2024-07-18 21:25:37,986 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 1526
+2024-07-18 21:25:37,986 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 1526
+2024-07-18 21:25:38,812 [INFO] front.services: Данные профиля получены
+2024-07-18 21:25:38,812 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 2
+2024-07-18 21:25:38,812 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 2
+2024-07-18 21:25:38,812 [INFO] front.views: Профиль успешно отображен
+2024-07-18 21:25:38,823 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 1526
+2024-07-18 21:25:38,823 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 1526
+2024-07-18 21:25:41,368 [INFO] authe.views: Попытка выхода из аккаунта
+2024-07-18 21:25:41,427 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-18 21:25:41,427 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-18 21:25:41,439 [INFO] authe.views: Вы разлогинились
+2024-07-18 21:25:41,439 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-18 21:25:41,439 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-18 21:25:41,446 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:25:41,446 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-18 21:25:42,527 [WARNING] django.request: Forbidden: /profile/
+2024-07-18 21:25:42,528 [WARNING] django.server: "GET /profile/ HTTP/1.1" 403 116
+2024-07-18 21:25:42,528 [WARNING] django.server: "GET /profile/ HTTP/1.1" 403 116
