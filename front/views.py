@@ -76,7 +76,7 @@ class UserEquipmentFormView(FormView):
             logger.info('Оборудование успешно добавлено')
             return redirect(self.success_url)
         except Exception:
-            logger.error(f"Ошибка при отправке данных")
+            logger.error(f"Ошибка при отправке данных", exc_info=True)
             return JsonResponse({'error': "Ошибка при отправке данных"}, status=500)
 
     def get_context_data(self, **kwargs):

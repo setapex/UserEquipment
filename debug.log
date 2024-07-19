@@ -878,3 +878,7 @@ ValueError: The view authe.validators.wrapper didn't return an HttpResponse obje
 2024-07-19 15:50:32,636 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
 2024-07-19 15:50:33,601 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2024-07-19 15:50:33,601 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:51:10,755 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-19 15:51:10,755 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\views.py changed, reloading.
+2024-07-19 15:51:11,624 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:51:11,624 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
