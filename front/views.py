@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 
 @method_decorator(validate_auth, name='dispatch')
-class EquipmentListView(TemplateView):
+class EquipmentTemplateView(TemplateView):
     template_name = 'equipment/equipment_list.html'
 
     def get(self, request, *args, **kwargs):
@@ -29,7 +29,7 @@ class EquipmentListView(TemplateView):
 
 
 @method_decorator(validate_auth, 'dispatch')
-class EquipmentCreateView(FormView):
+class EquipmentFormView(FormView):
     template_name = 'equipment/post_equipment.html'
     form_class = EquipmentForm
     success_url = '/equipment/'
@@ -57,7 +57,7 @@ class EquipmentCreateView(FormView):
 
 
 @method_decorator(validate_auth, 'dispatch')
-class UserEquipmentCreateView(FormView):
+class UserEquipmentFormView(FormView):
     template_name = 'equipment/user_equipment.html'
     form_class = UserEquipmentForm
     success_url = '/equipment/pair/'
@@ -86,7 +86,7 @@ class UserEquipmentCreateView(FormView):
 
 
 @method_decorator(validate_auth, 'dispatch')
-class ProfileListView(TemplateView):
+class ProfileTemplateView(TemplateView):
     template_name = 'authe/profile.html'
 
     def get(self, request, *args, **kwargs):

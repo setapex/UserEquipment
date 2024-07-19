@@ -665,3 +665,208 @@ ValueError: The view authe.validators.wrapper didn't return an HttpResponse obje
 2024-07-18 21:25:42,527 [WARNING] django.request: Forbidden: /profile/
 2024-07-18 21:25:42,528 [WARNING] django.server: "GET /profile/ HTTP/1.1" 403 116
 2024-07-18 21:25:42,528 [WARNING] django.server: "GET /profile/ HTTP/1.1" 403 116
+2024-07-19 14:55:09,064 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 14:55:09,064 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 14:56:27,883 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 14:56:27,883 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 14:56:34,148 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 14:56:34,148 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 14:56:34,568 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-19 14:56:34,568 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3175
+2024-07-19 14:56:34,568 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3175
+2024-07-19 14:56:39,752 [INFO] authe.views: Попытка входа пользователя - admin
+2024-07-19 14:56:40,377 [INFO] authe.views: Пользователь admin успешно авторизован
+2024-07-19 14:56:40,393 [INFO] authe.services: Попытка получения токена для admin
+2024-07-19 14:56:43,115 [INFO] authe.services: Токен для admin успешно получен
+2024-07-19 14:56:43,115 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-19 14:56:43,115 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-19 14:56:43,121 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-19 14:56:43,121 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-19 14:56:43,289 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 344
+2024-07-19 14:56:43,289 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 344
+2024-07-19 14:56:43,289 [INFO] front.services: Данные профиля получены
+2024-07-19 14:56:43,293 [INFO] front.views: Профиль успешно отображен
+2024-07-19 14:56:43,310 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 5493
+2024-07-19 14:56:43,310 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 5493
+2024-07-19 14:56:45,903 [INFO] authe.services: Попытка выхода из аккаунта
+2024-07-19 14:56:45,985 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-19 14:56:45,985 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-19 14:56:46,001 [INFO] authe.views: Вы разлогинились
+2024-07-19 14:56:46,001 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-19 14:56:46,001 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-19 14:56:46,012 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 14:56:46,012 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 14:56:53,307 [INFO] authe.views: Попытка входа пользователя - user1
+2024-07-19 14:56:53,893 [WARNING] authe.views: Проверьте правильность данных для user1
+2024-07-19 14:56:53,894 [WARNING] django.request: Unauthorized: /auth/login/
+2024-07-19 14:56:53,895 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 401 177
+2024-07-19 14:56:53,895 [WARNING] django.server: "POST /auth/login/ HTTP/1.1" 401 177
+2024-07-19 14:57:04,798 [INFO] authe.views: Попытка входа пользователя - user100
+2024-07-19 14:57:05,428 [INFO] authe.views: Пользователь user100 успешно авторизован
+2024-07-19 14:57:05,441 [INFO] authe.services: Попытка получения токена для user100
+2024-07-19 14:57:08,050 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-19 14:57:08,050 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-19 14:57:08,050 [INFO] authe.services: Токен для user100 успешно получен
+2024-07-19 14:57:08,055 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-19 14:57:08,055 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-19 14:57:08,196 [INFO] front.services: Данные профиля получены
+2024-07-19 14:57:08,196 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 2
+2024-07-19 14:57:08,196 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 2
+2024-07-19 14:57:08,197 [INFO] front.views: Профиль успешно отображен
+2024-07-19 14:57:08,206 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 1526
+2024-07-19 14:57:08,206 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 1526
+2024-07-19 14:57:09,891 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 2
+2024-07-19 14:57:09,891 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 2
+2024-07-19 14:57:09,891 [INFO] front.services: Данные профиля получены
+2024-07-19 14:57:09,894 [INFO] front.views: Профиль успешно отображен
+2024-07-19 14:57:09,901 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 1526
+2024-07-19 14:57:09,901 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 1526
+2024-07-19 14:57:10,626 [INFO] authe.services: Попытка выхода из аккаунта
+2024-07-19 14:57:10,714 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-19 14:57:10,714 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-19 14:57:10,726 [INFO] authe.views: Вы разлогинились
+2024-07-19 14:57:10,728 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-19 14:57:10,728 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-19 14:57:10,734 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 14:57:10,734 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 14:57:11,434 [WARNING] django.request: Forbidden: /profile/
+2024-07-19 14:57:11,436 [WARNING] django.server: "GET /profile/ HTTP/1.1" 403 116
+2024-07-19 14:57:11,436 [WARNING] django.server: "GET /profile/ HTTP/1.1" 403 116
+2024-07-19 14:57:13,319 [INFO] django.server: "GET /auth/registration/ HTTP/1.1" 200 2055
+2024-07-19 14:57:13,319 [INFO] django.server: "GET /auth/registration/ HTTP/1.1" 200 2055
+2024-07-19 14:57:25,127 [INFO] authe.services: Попытка регистрации пользователя - user101
+2024-07-19 14:57:25,934 [INFO] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 201 40
+2024-07-19 14:57:25,934 [INFO] django.server: "POST /auth/api/auth/users/ HTTP/1.1" 201 40
+2024-07-19 14:57:25,935 [INFO] authe.views: Пользователь user101 успешно зарегистрирован
+2024-07-19 14:57:25,937 [INFO] django.server: "POST /auth/registration/ HTTP/1.1" 302 0
+2024-07-19 14:57:25,937 [INFO] django.server: "POST /auth/registration/ HTTP/1.1" 302 0
+2024-07-19 14:57:25,944 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 14:57:25,944 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 14:57:32,988 [INFO] authe.views: Попытка входа пользователя - user101
+2024-07-19 14:57:33,667 [INFO] authe.views: Пользователь user101 успешно авторизован
+2024-07-19 14:57:33,678 [INFO] authe.services: Попытка получения токена для user101
+2024-07-19 14:57:36,477 [INFO] authe.services: Токен для user101 успешно получен
+2024-07-19 14:57:36,478 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-19 14:57:36,478 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-19 14:57:36,483 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-19 14:57:36,483 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-19 14:57:36,649 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 2
+2024-07-19 14:57:36,649 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 2
+2024-07-19 14:57:36,649 [INFO] front.services: Данные профиля получены
+2024-07-19 14:57:36,651 [INFO] front.views: Профиль успешно отображен
+2024-07-19 14:57:36,657 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 1526
+2024-07-19 14:57:36,657 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 1526
+2024-07-19 14:57:38,495 [INFO] authe.services: Попытка выхода из аккаунта
+2024-07-19 14:57:38,575 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-19 14:57:38,575 [INFO] django.server: "POST /auth/token/logout/ HTTP/1.1" 204 0
+2024-07-19 14:57:38,586 [INFO] authe.views: Вы разлогинились
+2024-07-19 14:57:38,588 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-19 14:57:38,588 [INFO] django.server: "GET /auth/logout/ HTTP/1.1" 302 0
+2024-07-19 14:57:38,596 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 14:57:38,596 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 14:58:29,986 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 14:58:29,986 [INFO] django.server: "GET /auth/login/ HTTP/1.1" 200 1961
+2024-07-19 15:15:17,498 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:15:17,498 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:15:18,348 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:15:18,348 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:20:56,683 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:20:56,683 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:20:57,683 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:20:57,683 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:24:09,774 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\services.py changed, reloading.
+2024-07-19 15:24:09,774 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\services.py changed, reloading.
+2024-07-19 15:24:10,744 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:24:10,744 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:25:27,080 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\services.py changed, reloading.
+2024-07-19 15:25:27,080 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\services.py changed, reloading.
+2024-07-19 15:25:28,162 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:25:28,162 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:27:15,530 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\services.py changed, reloading.
+2024-07-19 15:27:15,530 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\services.py changed, reloading.
+2024-07-19 15:27:16,854 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:27:16,854 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:28:11,922 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\services.py changed, reloading.
+2024-07-19 15:28:11,922 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\services.py changed, reloading.
+2024-07-19 15:28:13,081 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:28:13,081 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:28:37,463 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\services.py changed, reloading.
+2024-07-19 15:28:37,463 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\authe\services.py changed, reloading.
+2024-07-19 15:28:38,441 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:28:38,441 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:30:21,437 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:30:21,437 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:30:22,516 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:30:22,516 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:31:00,138 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:31:00,138 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:31:01,053 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:31:01,053 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:33:04,416 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:33:04,416 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:33:05,799 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:33:05,799 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:42:08,469 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:42:08,469 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:42:09,769 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:42:09,769 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:42:15,685 [INFO] authe.views: Попытка входа пользователя - admin
+2024-07-19 15:42:16,063 [INFO] authe.views: Пользователь admin успешно авторизован
+2024-07-19 15:42:16,074 [INFO] authe.services: Попытка получения токена для admin
+2024-07-19 15:42:18,809 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-19 15:42:18,809 [INFO] django.server: "POST /auth/token/login HTTP/1.1" 200 57
+2024-07-19 15:42:18,809 [INFO] authe.services: Токен для admin успешно получен
+2024-07-19 15:42:18,831 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-19 15:42:18,831 [INFO] django.server: "POST /auth/login/ HTTP/1.1" 302 0
+2024-07-19 15:42:18,990 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 344
+2024-07-19 15:42:18,990 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 344
+2024-07-19 15:42:18,991 [INFO] front.services: Данные профиля получены
+2024-07-19 15:42:18,993 [INFO] front.views: Профиль успешно отображен
+2024-07-19 15:42:19,035 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 5493
+2024-07-19 15:42:19,035 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 5493
+2024-07-19 15:42:22,452 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1948
+2024-07-19 15:42:22,452 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 1948
+2024-07-19 15:42:22,452 [INFO] front.services: Данные оборудования получены
+2024-07-19 15:42:22,455 [INFO] front.views: Оборудование успешно получено
+2024-07-19 15:42:22,483 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 27470
+2024-07-19 15:42:22,483 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 27470
+2024-07-19 15:42:23,626 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-19 15:42:23,626 [INFO] django.server: "GET /equipment/add/ HTTP/1.1" 200 3116
+2024-07-19 15:42:32,031 [INFO] front.services: Данные оборудования отправлены
+2024-07-19 15:42:32,033 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-19 15:42:32,033 [INFO] django.server: "POST /api/equipment/ HTTP/1.1" 201 71
+2024-07-19 15:42:32,033 [INFO] front.views: Оборудование успешно добавлено
+2024-07-19 15:42:32,034 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-19 15:42:32,034 [INFO] django.server: "POST /equipment/add/ HTTP/1.1" 302 0
+2024-07-19 15:42:32,205 [INFO] front.services: Данные оборудования получены
+2024-07-19 15:42:32,205 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 2020
+2024-07-19 15:42:32,205 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 2020
+2024-07-19 15:42:32,206 [INFO] front.views: Оборудование успешно получено
+2024-07-19 15:42:32,219 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 28398
+2024-07-19 15:42:32,219 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 28398
+2024-07-19 15:42:37,925 [INFO] django.server: "GET /equipment/pair/ HTTP/1.1" 200 6357
+2024-07-19 15:42:37,925 [INFO] django.server: "GET /equipment/pair/ HTTP/1.1" 200 6357
+2024-07-19 15:42:50,782 [INFO] front.services: Данные оборудования отправлены
+2024-07-19 15:42:50,783 [INFO] django.server: "POST /api/user/equipment/ HTTP/1.1" 201 94
+2024-07-19 15:42:50,783 [INFO] django.server: "POST /api/user/equipment/ HTTP/1.1" 201 94
+2024-07-19 15:42:50,783 [INFO] front.views: Оборудование успешно добавлено
+2024-07-19 15:42:50,787 [INFO] django.server: "POST /equipment/pair/ HTTP/1.1" 302 0
+2024-07-19 15:42:50,787 [INFO] django.server: "POST /equipment/pair/ HTTP/1.1" 302 0
+2024-07-19 15:42:50,934 [INFO] django.server: "GET /equipment/pair/ HTTP/1.1" 200 6559
+2024-07-19 15:42:50,934 [INFO] django.server: "GET /equipment/pair/ HTTP/1.1" 200 6559
+2024-07-19 15:42:52,787 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 430
+2024-07-19 15:42:52,787 [INFO] django.server: "GET /api/profile/ HTTP/1.1" 200 430
+2024-07-19 15:42:52,789 [INFO] front.services: Данные профиля получены
+2024-07-19 15:42:52,791 [INFO] front.views: Профиль успешно отображен
+2024-07-19 15:42:52,801 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6333
+2024-07-19 15:42:52,801 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6333
+2024-07-19 15:42:55,328 [INFO] front.services: Данные оборудования получены
+2024-07-19 15:42:55,328 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 2092
+2024-07-19 15:42:55,328 [INFO] django.server: "GET /api/equipment/ HTTP/1.1" 200 2092
+2024-07-19 15:42:55,329 [INFO] front.views: Оборудование успешно получено
+2024-07-19 15:42:55,343 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 29326
+2024-07-19 15:42:55,343 [INFO] django.server: "GET /equipment/ HTTP/1.1" 200 29326
+2024-07-19 15:43:58,534 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:43:58,534 [INFO] django.utils.autoreload: C:\Users\setapex\PycharmProjects\userEntity\front\services.py changed, reloading.
+2024-07-19 15:43:59,664 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-19 15:43:59,664 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
