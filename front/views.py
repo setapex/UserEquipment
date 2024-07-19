@@ -23,7 +23,7 @@ class EquipmentTemplateView(TemplateView):
             data = EquipmentService.get_equipment_data(token)
             logger.info('Оборудование успешно получено')
             return render(request, self.template_name, {'data': data})
-        except Exception as e:
+        except Exception:
             logger.error('Невозможно получить список оборудования', exc_info=True)
             return JsonResponse({'error': 'Ошибка получения оборудования'}, status=500)
 
@@ -46,7 +46,7 @@ class EquipmentFormView(FormView):
             EquipmentService.post_equipment_data(token, data)
             logger.info('Оборудование успешно добавлено')
             return redirect(self.success_url)
-        except Exception as e:
+        except Exception:
             logger.error("Ошибка при отправке данных", exc_info=True)
             return JsonResponse({'error': "Ошибка при отправке данных"}, status=500)
 
@@ -75,8 +75,8 @@ class UserEquipmentFormView(FormView):
             UserEquipmentService.create_user_equipment(user_id, equipment_data, token)
             logger.info('Оборудование успешно добавлено')
             return redirect(self.success_url)
-        except Exception as e:
-            logger.critical(f"Ошибка при отправке данных: {e}")
+        except Exception:
+            logger.error(f"Ошибка при отправке данных")
             return JsonResponse({'error': "Ошибка при отправке данных"}, status=500)
 
     def get_context_data(self, **kwargs):
@@ -95,7 +95,7 @@ class ProfileTemplateView(TemplateView):
             data = UserService.get_profile_data(token)
             equipment_list = [item['equipment'] for item in data]
             logger.info('Профиль успешно отображен')
-        except RuntimeError as e:
+        except RuntimeError:
             logger.error("Ошибка при получении данных профиля", exc_info=True)
             return JsonResponse({'error': "Ошибка при получении данных профиля"}, status=500)
         return render(request, self.template_name, {'data': equipment_list})
