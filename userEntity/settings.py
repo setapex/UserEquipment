@@ -1,6 +1,10 @@
 import os
-from pathlib import Path
 from logging.handlers import RotatingFileHandler
+from pathlib import Path
+
+from pythonjsonlogger.jsonlogger import JsonFormatter
+
+from userEntity.formatters import CustomJsonFormatter
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -138,13 +142,16 @@ REST_FRAMEWORK = {
     ]
 }
 
-
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'formatters': {
         'standard': {
             'format': '%(asctime)s [%(levelname)s] %(name)s: %(message)s',
+        },
+        'json': {
+            '()': CustomJsonFormatter,
+            'format': '%(timestamp)s %(level)s %(name)s %(message)s',
         },
     },
     'handlers': {
@@ -154,7 +161,7 @@ LOGGING = {
             'filename': os.path.join(BASE_DIR, 'debug.log'),
             'maxBytes': 1024 * 1024 * 1,
             'backupCount': 5,
-            'formatter': 'standard',
+            'formatter': 'json',
             'encoding': 'utf-8',
         },
     },
@@ -163,16 +170,6 @@ LOGGING = {
             'handlers': ['file'],
             'level': 'INFO',
             'propagate': True,
-        },
-        'django': {
-            'handlers': ['file'],
-            'level': 'INFO',
-            'propagate': True,
-        },
-        'django.request': {
-            'handlers': ['file'],
-            'level': 'INFO',
-            'propagate': False,
         },
     }
 }

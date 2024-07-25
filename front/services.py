@@ -17,11 +17,11 @@ class EquipmentService(HeadersService):
         equipment_url = f'{URL}equipment/'
         response = requests.get(equipment_url, headers=headers)
         if response.status_code == 200:
-            logger.info('Данные оборудования получены')
+            logger.info('The equipment data has been received')
             return response.json()
         else:
-            logger.error(f"Ошибка получения данных оборудования")
-            return JsonResponse({"error": "Ошибка получения данных оборудования"}, status=response.status_code)
+            logger.error(f"Hardware data acquisition error")
+            return JsonResponse({"error": "Hardware data acquisition error"}, status=response.status_code)
 
     @staticmethod
     def post_equipment_data(token, data):
@@ -29,11 +29,11 @@ class EquipmentService(HeadersService):
         headers = HeadersService.get_headers(token)
         response = requests.post(equipment_url, data=data, headers=headers)
         if response.status_code in [200, 201]:
-            logger.info('Данные оборудования отправлены')
-            return response
+            logger.info('The hardware data has been sent')
+            return None
         else:
-            logger.error(f"Ошибка отправки данных оборудования")
-            return JsonResponse({"error": "Ошибка отправки данных оборудования"}, status=response.status_code)
+            logger.error(f"Error sending equipment data")
+            return JsonResponse({"error": "Error sending equipment data"}, status=response.status_code)
 
 
 class UserEquipmentService(HeadersService):
@@ -44,11 +44,11 @@ class UserEquipmentService(HeadersService):
         data = {'user': user_id, 'equipment': equipment_data}
         response = requests.post(api_url, json=data, headers=headers)
         if response.status_code in [200, 201]:
-            logger.info('Данные оборудования отправлены')
-            return response
+            logger.info('The hardware data has been sent')
+            return None
         else:
-            logger.error(f"Ошибка отправки данных пользователя")
-            return JsonResponse({"error": "Ошибка отправки данных пользователя"}, status=response.status_code)
+            logger.error(f"Error sending user data")
+            return JsonResponse({"error": "Error sending user data"}, status=response.status_code)
 
 
 class UserService(HeadersService):
@@ -58,8 +58,8 @@ class UserService(HeadersService):
         headers = HeadersService.get_headers(token)
         response = requests.get(api_url, headers=headers)
         if response.status_code == 200:
-            logger.info('Данные профиля получены')
+            logger.info('Profile data received')
             return response.json()
         else:
-            logger.error(f"Ошибка получения данных профиля")
-            return JsonResponse({"error": "Ошибка получения данных профиля"}, status=response.status_code)
+            logger.error(f"Error receiving profile data")
+            return []

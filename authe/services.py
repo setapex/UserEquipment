@@ -21,20 +21,20 @@ class AuthService(HeadersService):
             'username': username,
             'password': password
         }
-        logger.info('Попытка получения токена для %s', username)
+        logger.info('An attempt to get a token for %s', username)
         response = requests.post(token_url, json=user_data)
         if response.status_code == 200:
-            logger.info('Токен для %s успешно получен', username)
+            logger.info('The token for %s has been successfully received', username)
             return response.json().get('auth_token', None)
         else:
-            logger.warning('Ошибка получения токена для %s', username)
+            logger.warning('Error getting the token for %s', username)
             return None
 
     @staticmethod
     def logout(token):
         logout_url = f'{URL}token/logout/'
         headers = HeadersService.get_headers(token)
-        logger.info('Попытка выхода из аккаунта')
+        logger.info('Attempt to log out of the account')
         response = requests.post(logout_url, headers=headers)
         return response.status_code == 204
 
@@ -45,6 +45,6 @@ class AuthService(HeadersService):
             'username': username,
             'password': password,
         }
-        logger.info('Попытка регистрации пользователя - %s', username)
-        response = requests.post(registration_url, data=data)
-        return response
+        logger.info('Attempt to register account - %s', username)
+        requests.post(registration_url, data=data)
+        return True

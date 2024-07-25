@@ -8,12 +8,7 @@
     {% endif %}
     <form method="post">
         {% csrf_token %}
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username"><br>
-        <label for="password1">Password:</label><br>
-        <input type="password" id="password1" name="password1"><br><br>
-        <label for="password2">Confirm password:</label><br>
-        <input type="password" id="password2" name="password2"><br><br>
+        {{form.as_p}}
         <button type="submit">Login</button>
     </form>
     </body>
